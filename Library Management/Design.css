@@ -1,0 +1,113 @@
+a:link
+{
+    text-decoration: none;
+}
+
+table{
+    border: 5px;
+}
+body{
+ background-image: url(data:image/jpeg;base64,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);
+ background-repeat: no-repeat;
+ background-size: cover;
+ font-family: Comic Sans MS;
+}
+.welcome{
+    background-color: rgba(245, 222, 179, 0.5);
+    font-family: Comic Sans MS;
+    text-shadow: 2px 2px 3px rgb(3, 3, 27);
+}
+#ViewBooks{
+    background-color: rgba(245, 222, 179, 0.5);
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px rgb(3, 3, 27)
+    
+}
+.ViewBookByName{
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgba(245, 222, 179, 0.5);
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px rgb(3, 3, 27)
+    
+}
+.loginD{
+    background-color: rgba(245, 222, 179, 0.5);
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px rgb(3, 3, 27)
+}
+.registreD{
+    background-color: rgba(245, 222, 179, 0.5);
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px rgb(3, 3, 27)
+}
+.adminloginD{
+    background-color: rgba(245, 222, 179, 0.5);
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px rgb(3, 3, 27)
+}
+.takebook{
+    margin-left: 30%;
+    margin-right: 30%;
+    padding:20px;
+    border-radius: 20px;
+    background-color: rgba(245, 222, 179, 0.5);
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px rgb(3, 3, 27)
+    
+}
+.returnbook{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: -22%;
+    padding:20px;
+    border-radius: 20px;
+    background-color: rgba(245, 222, 179, 0.5);
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px rgb(3, 3, 27)
+    
+
+}
+.Listdeptusers{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -10%;
+    padding:20px;
+    border-radius: 20px;
+    background-color: rgba(245, 222, 179, 0.5);
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px rgb(3, 3, 27)
+}
+.updateBooks{
+    margin-left: 30%;
+    margin-right: 30%;
+    padding:20px;
+    border-radius: 20px;
+    background-color: rgba(245, 222, 179, 0.5);
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px rgb(3, 3, 27)
+}
+.adminregistration{
+    margin-left: 30%;
+    margin-right: 30%;
+    padding:20px;
+    border-radius: 20px;
+    background-color: rgba(245, 222, 179, 0.5);
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px rgb(3, 3, 27)
+}
+#logoutD{
+    margin-left: 45%;
+    margin-top: 10%;
+    
+}

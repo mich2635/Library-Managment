@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="Design.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+        <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <a class="navbar-brand" href="#">WWW.librarymanagement.chainsys.com</a>
+                  </div>
+                  <ul class="nav navbar-nav">
+                    <li><a href="Firstpage.html">Home</a></li>
+                    <li><a href="ViewStocks.html">VIEW BOOKS</a></li>
+                    <li><a href="UserLogin.html">USER LOGIN</a></li>
+                    <li><a href="register.html">REGISTRATION</a></li>
+                    <li><a href="admin.html">ADMIN</a></li>
+                  </ul>
+                </div>
+              </nav>
+    <div>
+    <center><table>
+            <tr>
+            <th>
+        <button  onclick="TakeBookButton()">TAKE BOOK</button>
+        </th>
+        <th>
+        <button  onclick="ReturnBookButton()">RETURN BOOK</button>
+        </th>
+        </tr>
+        </table></center>
+     </div> 
+        <form class="takebook" stye="visibility: hidden" onsubmit="TakeBook()">
+            <label>ENTER THE BOOK NAME</label>
+            <input type="text" id="bookname" placeholder="USER ID" required>
+            <br>
+            <label>ENTER THE QUANTITY</label>
+            <input type="number" id="bookquantity" placeholder="QUANTITY" required min="0"><br>
+            <label>ENTER YOUR ID</label><br>
+            <input type="number" id="debtuser" min="0" placeholder="NUMBER" required><br><br>
+                <input type="submit">
+           
+        </form>
+        <form class="returnbook" style="visibility: hidden" onsubmit="ReturnBook()">
+            <label>ENTER THE BOOK NAME</label><br>
+            <input type="text" id="booknameR" placeholder="BOOK NAME" required><br>
+            <label>ENTER  USER ID</label><br>
+            <input type="text" placeholder="ID" id="ID" required/><br>
+            <label>ENTER THE RETURNING BOOK QUANTITY</label><br>
+            <input type="number" id="bookQuant" placeholder="BOOK QUANTITY" min="0"><br><br>
+            <input type="submit">
+        </form><br>
+      <center><button onclick="userlogout()">LOG OUT</button></center>
+</body>
+<script src="backend.js">
+</script>
+
+</html>

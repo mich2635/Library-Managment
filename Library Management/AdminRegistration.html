@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Design.css">
+</head>
+<body>
+    <center>
+            <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <a class="navbar-brand" href="#">WWW.librarymanagement.chainsys.com</a>
+                      </div>
+                      <ul class="nav navbar-nav">
+                        <li><a href="Firstpage.html">Home</a></li>
+                        <li><a href="ViewStocks.html">VIEW BOOKS</a></li>
+                        <li><a href="UserLogin.html">USER LOGIN</a></li>
+                        <li><a href="register.html">REGISTRATION</a></li>
+                        <li><a href="admin.html">ADMIN</a></li>
+                      </ul>
+                    </div>
+                  </nav>
+    </center>
+    <form onsubmit="adminRegistration()" class="adminregistration">
+    <label>ENTER YOUR ID</label><br>
+    <input type="number" required id="id" min=1000 placeholder="USER ID"><br>
+    <label>ENTER YOUR AGE</label>
+    <br><input type="number" required min="8" placeholder="AGE"><br>
+    <label>ENTER YOUR EMAIL</label><br>
+    <input type="email" required placeholder="EMAIL"><br>
+    <label>ENTER YOUR PASSWORD</label><br>
+    <input type="password" required id="adminPassword" placeholder="PASSWORD"><br><br>
+    <input type="submit">
+    </form>
+</body>
+<script src="backend.js"></script>
+</html>

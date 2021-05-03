@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="Design.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+ <center><table>
+        <tr>
+            <th>
+        <button onclick="viewUpdateBooksDiv()">UPLOAD BOOK DETAILS</button>
+        </th>
+        <th>
+        <button onclick="viewdeptuser()" id="adminbtn">VIEW DEPT USERS</button>
+        </th>
+        </tr>
+        </table></center>
+    <form onsubmit="uploadBooks()" style="visibility:hidden" class="updateBooks">
+        <label>ENTER THE BOOK NAME TO BE ADDED</label><input type="text" id="bookName" required><br>
+        <label>ENTER THE BOOK QUANTITY</label><input type="number" id="quantity" required><br><br>
+        
+        <button>Submit</button>
+    </form>
+    <form  class="Listdeptusers" style="visibility:hidden" id="Listdeptusers" > </form>
+    <button id="logoutD" onclick="userlogout()">LOG OUT</button>
+</body>
+<script src="backend.js"></script>
+</html>
