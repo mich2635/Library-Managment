@@ -299,14 +299,12 @@ function uploadBooks()
             localStorage.setItem("BooksStock",JSON.stringify(BooksStock));
             alert("BOOK QUANTITY UPDATED");
         }
+}
    
   /**
    * This function is called from "AdminView.html".
    * This function is used to view UpadateBooks Form
    */
-
-}
-
 function viewUpdateBooksDiv()
 {
     event.preventDefault();
