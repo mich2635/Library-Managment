@@ -11,9 +11,6 @@ function register()
     let password=document.querySelector("#password").value;
     let UserDetails=JSON.parse(localStorage.getItem("UserDetails"))||[];
     let index = UserDetails.findIndex(obj => obj.userId == userId);
-    //
-    
-    //
     if(index == -1)
     {
             let userObj = { "userId" : userId, "password": password };
